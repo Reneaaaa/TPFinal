@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>T & P Ink</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+</style>
+</head>
+<body>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen"/>
+    
+    <div class="navbar">
+        <a href="index.html" target= "_self">Home</a>
+        <a href="piercings.html" target= "_self">Piercings</a>
+        <a href="tattoos.html" target="_self">Tattoos</a>
+        <a href="shop.html" target="_self">Shop</a>
+        
+        <a href="login.html" class="right">Login</a>
+        <a href="signup.html" class="right">Sign-Up</a>
+      </div>
+      
+      <div class="header">
+    <h1>T & P Ink</h1>
+<p>Here for your body mod needs.</p>
+</div>
+
+    <style>
+      html,
+      body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        font-family: "Helvetica", sans-serif;
+      }
+      img {
+        max-width: 100%;
+      }
+      .slider-container {
+        height: 100%;
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+        text-align: center;
+      }
+      .menu {
+        position: absolute;
+        left: 0;
+        z-index: 900;
+        width: 100%;
+        bottom: 0;
+      }
+      .menu label {
+        cursor: pointer;
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        background: #fff;
+        border-radius: 50px;
+        margin: 0 0.2em 1em;
+      }
+      .menu label:hover,
+      .menu label:focus {
+        background: #1c87c9;
+      }
+      .slide {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 100%;
+        z-index: 10;
+        padding: 8em 1em 0;
+        background-size: cover;
+        background-position: 50% 50%;
+        transition: left 0s 0.75s;
+      }
+      [id^="slide"]:checked + .slide {
+        left: 0;
+        z-index: 100;
+        transition: left 0.65s ease-out;
+      }
+      .slide-1 {
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLakKctxbdOr5A_t4wLWcBgAgt4yfhX2iBQA&usqp=CAU");
+      }
+      .slide-2 {
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS04wzdEFZPVEV96lar8P3cmRJHxZ6kW-5mBA&usqp=CAU");
+      }
+      .slide-3 {
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpriVINo64CgcxgzrmSK766AeuAJU5HKgvMw&usqp=CAU");
+      }
+    </style>
+  </head>
+  <body>
+    <div class="slider-container">
+      <div class="menu">
+        <label for="slide-dot-1"></label>
+        <label for="slide-dot-2"></label>
+        <label for="slide-dot-3"></label>
+      </div>
+      <input id="slide-dot-1" type="radio" name="slides" checked>
+      <div class="slide slide-1"></div>
+      <input id="slide-dot-2" type="radio" name="slides">
+      <div class="slide slide-2"></div>
+      <input id="slide-dot-3" type="radio" name="slides">
+      <div class="slide slide-3"></div>
+    </div>
+  </body>
+
+
+
+
+
+<h1>About us</h1>
+<h2>We're an information page looking to help with all your needs when it comes to piercings and tattoos!</h2>
+<style> h2{
+    text-align: center;}
+    </style>
+<hr>
+
+<h1>Contact us</h1>
+<ul>Phone : 555-555-5555 </ul>
+<ul>Address: 223 James P Brawley Dr SW</ul>
+<ul>         Atlanta, GA 30314</ul>
+<style>
+    ul{
+        text-align: center;
+    }
+</style>
+<hr>
+<form action="action_page.php">
+    <div class="container">
+      <h1>Subscribe to our Newsletter</h1>
+      <h2>Get updated when we post new information</h2>
+    </div>
+  
+    <div class="container" style="background-color:white">
+      <input type="text" placeholder="Name" name="name" required>
+      <input type="text" placeholder="Email address" name="mail" required>
+      <label>
+        <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
+      </label>
+    </div>
+  
+    <div class="container">
+      <input type="submit" value="Subscribe">
+    </div>
+  </form>
+
+</body>
+</html>

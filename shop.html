@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>T & P Ink</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+</style>
+</head>
+<body>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen"/>
+    
+    <div class="navbar">
+        <a href="index.html" target= "_self">Home</a>
+        <a href="piercings.html" target= "_self">Piercings</a>
+        <a href="tattoos.html" target="_self">Tattoos</a>
+        <a href="shop.html" target="_self">Shop</a>
+        <a href="login.html" class="right">Login</a>
+        <a href="signup.html" class="right">Sign-Up</a>
+      </div>
+      
+      <div class="header">
+    <h1>Shop</h1>
+<p>A website created by me.</p>
+</div>
+
+<style>
+    .container {
+      position: relative;
+      width: 50%;
+    }
+    
+    .image {
+      opacity: 1;
+      display: block;
+      width: 85%;
+      height: auto;
+      transition: .5s ease;
+      backface-visibility: hidden;
+    }
+    
+    .middle {
+      transition: .5s ease;
+      opacity: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      text-align: center;
+    }
+    
+    .container:hover .image {
+      opacity: 0.3;
+    }
+    
+    .container:hover .middle {
+      opacity: 1;
+    }
+    
+    .text {
+      background-color: #4CAF50;
+      color: white;
+      font-size: 16px;
+      padding: 16px 32px;
+    }
+    </style>
+    </head>
+    <body>
+    
+    <h2>Equipment and After/Before Care</h2>
+    <p>Hover over the image to see pricing!</p>
+  
+    <div class="container">
+      <img src="https://images-na.ssl-images-amazon.com/images/I/610Q7uEBxYL._AC_UL200_SR200,200_.jpg" alt="Image" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">$18.50</div>
+</div>
+<hr>
+
+<div class="container">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0Q_VE695_Y4BKpLTgJw2-xF9IpxSfjNeUeg&usqp=CAU" alt="Image" class="image" style="width:100%">
+    <div class="middle">
+      <div class="text">$10</div>
+</div>
+<hr>
+
+<div class="container">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0Kv19H4S_niMN_0BcuCKnIZppeDE9zirUNQ&usqp=CAU" alt="Image" class="image" style="width:100%">
+    <div class="middle">
+      <div class="text">$20</div>
+</div>
+<hr>
+</div>
+</div>
+
+    </div>
+</style>
+</body>
+</html>
+
